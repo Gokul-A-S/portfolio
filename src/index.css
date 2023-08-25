@@ -65,3 +65,16 @@ a:hover {
 .logo:hover {
   cursor: default;
 }
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+h1{
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
