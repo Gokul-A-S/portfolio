@@ -1,84 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* GENERAL */
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-body{
-  font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  text-decoration-color: gray;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-a:hover {
-  color: gray;
-  text-decoration: underline;
-  text-decoration-color: rgb(181, 181, 181);
-  text-underline-offset: 1rem;
+html {
+  scroll-behavior: smooth;
 }
 
-a, .btn{
-  transition: all 0.3s ease;
+p {
+  color: rgb(85, 85, 85);
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+/* TRANSITION */
+
+a,
+.btn {
+  transition: all 300ms ease;
 }
 
-button:hover {
-  border-color: #646cff;
-}
-
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-
-  a:hover {
-    color: #747bff;
-  }
-
-  button {
-    background-color: #f9f9f9;
-  }
-}
+/* DESKTOP NAV */
 
 nav,
 .nav-links {
   display: flex;
 }
 
-.nav {
+nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
 }
 
-.nav-links{
+.nav-links {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
 }
 
-.logo{
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
   font-size: 2rem;
 }
 
-.logo :hover{
+.logo:hover {
   cursor: default;
 }
