@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar'
-import Main from './pages/Main'
+import Profile from './pages/Profile'
 import Menu from './components/Menu'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <><Navbar />
       <Menu />
-      <Main />
+      <Profile />
     </>
   )
 
