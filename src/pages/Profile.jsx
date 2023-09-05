@@ -13,7 +13,7 @@ const Profile = () => {
                     <p className='section_text_p2'>Software Developer</p>
                 
                 <div className='btn-container'>
-                    <button className='btn btn-color-2' onClick={() => { window.open('./resume.pdf') }}>Download Resume</button>
+                    <button className='btn btn-color-2' onClick={() => { window.open('./resume.pdf') }}>Download CV</button>
                     <button className='btn btn-color-1' onClick={() => { window.location.href = './#contact' }}>Contact</button>
                 </div>
                 <div id='socials-container'>
